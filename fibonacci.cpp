@@ -11,9 +11,8 @@ using namespace std;
 
 int main()
 {
-
-  long long int fib[60];
-	int i;
+int fib[60];
+int i;
  
   fib[0] = 0;
   fib[1] = 1;	
