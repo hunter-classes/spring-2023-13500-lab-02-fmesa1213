@@ -25,7 +25,7 @@ fib[i] = fib[i-1] + fib[i-2];
 }
 for (i = 0; i < 60; i++)
 {
-printf("%3d %6d\n", i, fib[i]); 
+fib[i] = fib[i-1] + fib[i-2];
 }
 return 0;
 }
